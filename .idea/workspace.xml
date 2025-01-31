@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7daea78-d1fa-4f54-bbe2-fcd29b56a34e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/home/templates/home/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/urls.py" afterDir="false" />
+    <list default="true" id="f7daea78-d1fa-4f54-bbe2-fcd29b56a34e" name="Changes" comment="chapter 1-2 changes">
+      <change afterPath="$PROJECT_DIR$/home/templates/home/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS2340_Project1/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/CS2340_Project1/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS2340_Project1/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/CS2340_Project1/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,11 +112,24 @@
       <option name="presentableId" value="Default" />
       <updated>1738104530696</updated>
       <workItem from="1738104531694" duration="1000" />
-      <workItem from="1738104864045" duration="8642000" />
+      <workItem from="1738104864045" duration="9655000" />
     </task>
+    <task id="LOCAL-00001" summary="chapter 1-2 changes">
+      <option name="closed" value="true" />
+      <created>1738364358419</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1738364358419</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="chapter 1-2 changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="chapter 1-2 changes" />
   </component>
 </project>
