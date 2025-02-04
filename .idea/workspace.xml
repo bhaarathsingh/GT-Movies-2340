@@ -5,20 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f7daea78-d1fa-4f54-bbe2-fcd29b56a34e" name="Changes" comment="chapter 2 changes">
-      <change afterPath="$PROJECT_DIR$/movies/templates/movies/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies/templates/movies/show.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moviesstore/static/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moviesstore/static/img/about.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moviesstore/static/img/background.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moviesstore/static/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moviesstore/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movies/templates/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movies/templates/static/img/about.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movies/templates/static/img/background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movies/templates/static/img/logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home/templates/home/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/home/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/home/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/home/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moviesstore/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/moviesstore/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moviesstore/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/moviesstore/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/templates/movies/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/movies/templates/movies/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/templates/movies/show.html" beforeDir="false" afterPath="$PROJECT_DIR$/movies/templates/movies/show.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/movies/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,18 +32,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "sameera108"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;sameera108&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/bhaarathsingh/GT-Movies-2340",
-    "accountId": "09b9f3dd-029a-49cc-a576-785436ea0de5"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/bhaarathsingh/GT-Movies-2340&quot;,
+    &quot;accountId&quot;: &quot;09b9f3dd-029a-49cc-a576-785436ea0de5&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -66,7 +61,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "sameera",
-    "last_opened_file_path": "/Users/sameera/Desktop/Study/GT/CS2340/GT-Movies-2340/moviesstore/static/img",
+    "last_opened_file_path": "/Users/sameera/Desktop/Study/GT/CS2340/GT-Movies-2340/home",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -78,9 +73,12 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/home" />
       <recent name="$PROJECT_DIR$/moviesstore/static/img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/movies/templates" />
+      <recent name="$PROJECT_DIR$/movies" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
