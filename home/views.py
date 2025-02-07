@@ -1,6 +1,9 @@
 from django.shortcuts import render
+from django.contrib.auth.mixins import LoginRequiredMixin
 
 # Create your views here.
+def home(request):
+    return render(request, 'home.html', {'user': request.user})
 def index(request):
     template_data = {}
     template_data['title'] = 'Movies Store'
