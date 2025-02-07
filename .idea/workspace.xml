@@ -4,16 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7daea78-d1fa-4f54-bbe2-fcd29b56a34e" name="Changes" comment="chapter 2 changes">
-      <change afterPath="$PROJECT_DIR$/movies/templates/static/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies/templates/static/img/about.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies/templates/static/img/background.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies/templates/static/img/logo.png" afterDir="false" />
+    <list default="true" id="f7daea78-d1fa-4f54-bbe2-fcd29b56a34e" name="Changes" comment="chapter 4-5 changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS2340_Project1/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/CS2340_Project1/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS2340_Project1/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/CS2340_Project1/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home/templates/home/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/home/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/home/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/home/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/models.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/movies/templates/movies/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/movies/templates/movies/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movies/templates/movies/show.html" beforeDir="false" afterPath="$PROJECT_DIR$/movies/templates/movies/show.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/movies/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/templates/static/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/templates/static/img/about.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/templates/static/img/background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/templates/static/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moviesstore/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/moviesstore/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moviesstore/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/moviesstore/static/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moviesstore/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/moviesstore/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moviesstore/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/moviesstore/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,28 +68,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Django Server.DjangoProject.executor": "Run",
-    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "sameera",
-    "last_opened_file_path": "/Users/sameera/Desktop/Study/GT/CS2340/GT-Movies-2340/home",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Django Server.DjangoProject.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.pycharm.django.structure.promotion.once.per.project&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;sameera&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/sameera/Desktop/Study/GT/CS2340/GT-Movies-2340/moviesstore/static/img&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/home" />
       <recent name="$PROJECT_DIR$/moviesstore/static/img" />
+      <recent name="$PROJECT_DIR$/home/templates" />
+      <recent name="$PROJECT_DIR$/home" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/movies/templates" />
@@ -90,9 +107,10 @@
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
-        <env name="DJANGO_SETTINGS_MODULE" value="CS2340_Project1.settings" />
+        <env name="DJANGO_SETTINGS_MODULE" value="moviesstore.settings" />
       </envs>
       <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.12 (DjangoProject)" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -127,6 +145,9 @@
       <updated>1738104530696</updated>
       <workItem from="1738104531694" duration="1000" />
       <workItem from="1738104864045" duration="17735000" />
+      <workItem from="1738894781295" duration="387000" />
+      <workItem from="1738895326358" duration="15039000" />
+      <workItem from="1738944952481" duration="8889000" />
     </task>
     <task id="LOCAL-00001" summary="chapter 1-2 changes">
       <option name="closed" value="true" />
@@ -144,7 +165,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738364617135</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="chapter 4-5 changes">
+      <option name="closed" value="true" />
+      <created>1738710303346</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1738710303346</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,6 +182,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="chapter 1-2 changes" />
     <MESSAGE value="chapter 2 changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="chapter 2 changes" />
+    <MESSAGE value="chapter 4-5 changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="chapter 4-5 changes" />
   </component>
 </project>
