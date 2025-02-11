@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-ugwccsj!t9xzuvslk)vb_h5084(60w_8!6s*ijy0d1uz2l+_u1'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 
@@ -139,25 +139,12 @@ STATICFILES_DIRS = [
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
 
-# EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-# EMAIL_HOST = 'smtp.gmail.com'
-# EMAIL_PORT = 587
-# EMAIL_USE_TLS = True
-# EMAIL_HOST_USER = 'your-email@gmail.com'
-# EMAIL_HOST_PASSWORD = 'your-email-password'
-# DEFAULT_FROM_EMAIL = 'YourAppName <your-email@gmail.com>'
-#
-#
-# EMAIL_BACKEND = 'django_sendgrid_v5.backends.SendgridEmailBackend'
-# SANDGRID_API_KEY = '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'
-# SANDGRID_DEFAULT_FROM_EMAIL= 'sadumala3@gatech.edu'
-
 ALLOWED_HOSTS = ['*']
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.sendgrid.net'
 DEFAULT_FROM_EMAIL = os.environ.get('DEFAULT_FROM_EMAIL')
-EMAIL_HOST_USER = os.environ.get('SENDGRID_API_NAME')# this is exactly the value 'apikey'
+EMAIL_HOST_USER = os.environ.get('SENDGRID_API_NAME')
 EMAIL_HOST_PASSWORD = os.environ.get('SENDGRID_API_KEY')
 EMAIL_PORT = 587
 EMAIL_USE_TLS = False
